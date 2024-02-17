@@ -15,8 +15,8 @@ bool landDroneCallback(tugas1::LandDrone::Request &req, tugas1::LandDrone::Respo
 void publishData() {
     ros::Rate loop_rate(0.1);
 
-    float x = 495.0;
-    float y = -395.0;
+    float x = 0.0;
+    float y = 0.0;
     float z = 0.0;
     std::string status;
 
